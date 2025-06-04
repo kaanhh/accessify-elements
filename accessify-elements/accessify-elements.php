@@ -33,3 +33,5 @@ function accessify_elements_enqueue_assets() {
         true                                               
     );
 }
+
+add_action('wp_enqueue_scripts', 'accessify_elements_enqueue_assets');
